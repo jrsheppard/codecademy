@@ -1,0 +1,151 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    position:fixed;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    width: 100%;
+    z-index: 1;
+}
+
+main {
+    font-family:'Roboto Serif', serif;
+    font-size: 16px;
+    position:relative;
+    top:90px;
+    min-width: 600px;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: 200;
+    width: 220px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.slogan {
+    font-size: 1.25em;
+    font-weight: 200;
+    width: 220px;
+    letter-spacing: 0em;
+    text-transform: lowercase;
+    font-style: italic;
+    text-align: center;
+}
+
+.color-combo {
+    display: flex;
+    height: 100%;
+}
+
+.small-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    padding: 10px;
+    width: 100%;
+}
+
+.large-text {
+    font-size: 1.3em;
+    font-family: 'Roboto Serif', serif;
+    padding: 10px;
+    width: 100%;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    font-size: 1.1em;
+    font-family: 'Nunito', sans-serif;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.btn p {
+    vertical-align: middle;
+    display: inline;
+}
+
+.bg-midnight {
+    background-color: #011826;
+}
+
+.fg-midnight {
+    color: #011826;
+}
+
+.bg-purple {
+    background-color: #591C38;
+}
+
+.fg-purple {
+    color: #591C38;
+}
+
+.bg-blue {
+    background-color: #05A4B4;
+}
+
+.fg-blue {
+    color: #05A4B4;
+}
+
+.bg-green {
+    background-color: #41BFB3;
+}
+
+.fg-green {
+    color: #41BFB3;
+}
+
+.bg-pink {
+    background-color: #D98BA7;
+}
+
+.fg-pink {
+    color: #D98BA7;
+}
+
+.fg-white {
+    color: #FFF;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.border-pink {
+    border-color: #D98BA7 !important;
+}
+
+.border-purple {
+    border-color: #591C38 !important;
+}
+
+.border-green {
+    border-color: #41BFB3 !important;
+}
+
+.border-blue {
+    border-color: #05A4B4 !important;
+}
+
+.border-midnight {
+    border-color: #011826 !important;
+}
