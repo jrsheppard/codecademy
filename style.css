@@ -1,0 +1,86 @@
+
+/* Universal Styles */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16;
+}
+
+/* Typography */
+
+.display {
+    font-family: 'Anybody', cursive;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.slogan {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.headline {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.title, .nav, .button {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.caption {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.body {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* Colors */
+
+/* Use for large body sections */
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-seafoam {
+    background-color: hsl(173, 100%, 97%);
+}
+
+/* Button Colors */
+.bg-green {
+    background-color: hsl(173, 63%, 60%);
+    color: white;
+}
+
+.fg-green {
+    background-color: white;
+    color: 	hsl(173, 63%, 60%);
+    border: 2px solid hsl(173, 63%, 60%);
+}
+
+/* Use for warnings and errors */
+
+.bg-red {
+    background-color: hsl(356, 59%, 61%);
+    color: white;
+}
+
+.fg-red {
+    background-color: white;
+    color: 	hsl(356, 59%, 61%);
+}
